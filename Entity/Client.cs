@@ -10,6 +10,7 @@ namespace Entity
 {
     public class Client
     {
+        //Altenticação no banco de dado
         [Required (ErrorMessage = "Id não Econtrado")]
         public int Id { get; set; }
 
